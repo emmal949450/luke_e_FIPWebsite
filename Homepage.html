@@ -2,28 +2,63 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Web Page</title>
+<title>Homepage</title>
 <link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
 </head>
 <body>
-	<section id="topBar"></section><!--end topBar-->
+	<section id="topBar"></section>
 	<div id="siteContainer">
     	<header id="mainHeader">
-        	<div id="logo"><p>Logo</p></div><!--end logo-->
-            <nav id="mainNav"><p>Nav</p></nav><!--end mainNav-->
-        </header><!--end mainHeader-->
+        	<div id="logo">
+             <img src="images/logo-done.jpg" width="200" height="100" alt="Logo">   
+            </div>
+            <h2 class="hidden">Nav</h2>
+            <nav id="mainNav">
+            <p>
+            <ul>
+            <li class="navtext"><a href="Homepage.html">Home</a></li>
+            <li class="navtext"><a href="index.html">Shop</a></li>
+            <li class="navtext"><a href="About-Us.html">About Us</a></li>
+            <li class="navtext"><a href="Contact.html">Contact</a></li>
+            </ul>
+            <img src="images/searchbar.png" width="472" height="19" alt="bar" class="bar-right">
+            </p>
+        </nav>
+        </header>
+
         <section id="promo">
-        	<div id="promoImageBig"><p>Promo Image</p></div><!--end promoImage-->
-        </section><!--end promo-->
+        	<div id="promoImageBig">
+             <img src="images/banner.jpg" width="920" height="252" alt="Logo">   
+            </div>
+        </section>
+
         <section id="productInfo">
-        	<section class="productDescLargeLeft"><p>Product Image &amp; Text</p></section><!--end productDesc1-->
-            <section class="productDescLargeRight"><p>Product Image &amp; Text</p></section><!--end productDesc4-->
-        </section><!--end productInfo-->
+        	<section class="productDescLargeLeft"><p>
+                <div><img src="images/homepage-cactus.jpg" width="382" height="231" alt="shop pic"></div>
+                <li class="productText"><a href="index.html">Shop Now!</a></li>
+            </p></section>
+
+            <section class="productDescLargeRight"><p>
+                <div><img src="images/shop-owner.jpg" width="382" height="231" alt="shop-owner"></div>
+                <li class="productText"><a href="About-Us.html">More About Us!</a></li>
+            </p></section>
+
+
+        </section>
         <footer id="mainFooter">
-        	<div id="footerNav"><p>Footer Nav</p></div><!--end FooterNav-->
-            <div id="copyRight"><p>Copyright Info</p></div><!--end Copyright-->
-        </footer><!--end mainFooter-->
-    </div><!--end siteContainer-->
+        	<div id="footerNav"><p>
+                  <ul>
+                <li class="navtext"><a href="Homepage.html">Home</a></li>
+                <li class="navtext"><a href="index.html">Shop</a></li>
+                <li class="navtext"><a href="About-Us.html">About Us</a></li>
+                <li class="navtext"><a href="Contact.html">Contact</a></li>
+                </ul>
+             <img src="images/searchbar.png" width="472" height="19" alt="bar" class="bar-right">
+            </p>
+            </div>
+            <div id="copyRight"><p>©2020. All Rights Reserved.</p></div>
+        </footer>
+    </div>
 <script src="js/main.js"></script>    
 </body>
 </html>
