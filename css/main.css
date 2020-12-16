@@ -1,20 +1,15 @@
 @charset "UTF-8";
-/* CSS Document */
 
-/*Remove this rule, this is only for demo purposes to make the boxes black with white text
-The line height on the <p> tag gives each box a height value*/
 
 p
 {
 	color: #fff;
 	line-height: 100px;
-	background: #000;
+	background: #DDD;
 	text-align: center;
 	margin: 0;
 }
 
-/*basic reset*/
-/*browsers have built in values for elements so we'll reset a few things to zero, you can add to this or remove items as needed*/
 
 div,p,body,header,footer,section,article,nav 
 { 
@@ -24,12 +19,11 @@ div,p,body,header,footer,section,article,nav
 
 img 
 { 
-	border: none; /*Remove border if image is a link*/
+	border: none;
 	margin: 0; 
 	padding: 0; 
 }
 
-/*html selectors*/
 
 body 
 {
@@ -39,10 +33,6 @@ body
 	background-color: #f5cbb5;
 }
 
-
-/*a:link is for not visited(standard unclicked link), 
-a:visited is for visited, and just a applies to both.*/
-/*a will also style anchor links*/
 
 a:link, a:visited 
 { 
@@ -54,23 +44,20 @@ a:hover, a:active
 	text-decoration:none; 
 }
 
-/*hide elements from browser but show for doc outline*/
+
 
 .hidden
 {
 	display: none;
 }
 
-/*section is block level and no width specidied therefore stretches full screen*/
+
 #topBar
 {
 	background-color: #476639;
 	height: 20px;
 }
 
-/*Site Container*/
-/*This is essentially a box that we place the whole site in.  
-We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 20px (960px) so it fits on 1024x768 screens.*/
 
 #siteContainer 
 {
@@ -80,7 +67,7 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	padding-right: 20px;
 }
 
-/*This is a flex container*/
+
 #mainHeader
 {
 	margin-top: 40px;
@@ -91,7 +78,7 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	border-bottom: solid 1px #DDD;
 }
 
-/*This is a flex item*/
+
 #logo
 {
 	width: 200px;
@@ -147,6 +134,10 @@ nav a:hover {
 }
 
 /*Nav End*/
+
+
+
+/*-------------------Page 1-----------------------*/
 
 
 /*Promo Body*/
@@ -235,8 +226,6 @@ nav a:hover {
  }
 
 
-
-
 #productInfo 
 {
 	margin-top: 40px;
@@ -245,13 +234,6 @@ nav a:hover {
   	justify-content: space-between;
 	border-bottom: solid 1px #DDD;
 	padding-bottom: 40px;
-}
-
-/*Get rid of this, here just to give different height to productInfo*/
-#productInfo p 
-{
-	line-height: 300px;
-	
 }
 
 
@@ -297,19 +279,15 @@ nav a:hover {
 	background: #da5b4e;
 }
 
-/*.navtext2 {
-	
-    text-align:left;
-    vertical-align:top;
-    display:inline-block;
-    padding: 5px; 
-    margin-left: 8px;
-    margin-right: 5px;
-    margin-top: 0 auto;
-    font-size: 20px;
-    font-family: Avenir, Helvetica, sans-serif;
-    font-weight: bold;
-}*/
+footer a {
+	color: black;
+	text-transform: uppercase; 
+}
+
+footer a:hover {
+	color: #68248d;
+	text-decoration: underline;
+}
 
 #copyRight 
 {
@@ -317,7 +295,10 @@ nav a:hover {
 	width: 310px;
 }
 
-/*Page 2 - Notice we are using one style sheet for all of the pages*/
+/*Footer End*/
+
+
+/*------------------------Page 2---------------------------*/
 
 #contentCon {
 	margin-top: 40px;
@@ -345,7 +326,10 @@ nav a:hover {
 	width: 440px;
 }
 
-/*Page 3*/
+
+
+
+/*-------------------Page 3--------------------*/
 
 #productImages 
 {
@@ -393,11 +377,20 @@ nav a:hover {
 .productDescLargeLeft 
 {
 	width: 410px;
+	height: 300px;
+	background-color: #46a4c5;
+	padding-top: 15px;
+	padding-left: 25px;
+
 }
 
 .productDescLargeRight 
 {
 	width: 410px;
+	height: 300px;
+	background-color: #46a4c5;
+	padding-top: 15px;
+	padding-left: 25px;
 }
 
 
