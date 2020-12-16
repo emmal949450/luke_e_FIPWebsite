@@ -312,12 +312,19 @@ footer a:hover {
 /*Get rid of this, here just to give different height to promo*/
 #contentCon p 
 {
-	line-height: 630px;
+	background-color: #46a4c5;
+	line-height: 30px;
+	display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+
+	
 }
 
-#content1 
-{
+#content1 {
+
 	width: 440px;
+	padding-left: 20px;
 }
 
 #content2 
@@ -325,6 +332,29 @@ footer a:hover {
 	margin-left: auto;
 	width: 440px;
 }
+
+#paragraph2 {
+	
+	font-family: Avenir, Helvetica, sans-serif;
+	text-align: left;
+	font-size: 20px;
+	padding: 21px;
+	color: black;
+	padding-bottom: 15px;
+	
+}
+
+#paragraph3 {
+
+	font-family: Avenir, Helvetica, sans-serif;
+	text-align: left;
+	font-size: 23px;
+	padding: 21px;
+	color: black;
+	padding-bottom: 15px;
+	
+}
+
 
 
 
